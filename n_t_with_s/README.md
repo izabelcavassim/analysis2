@@ -165,7 +165,7 @@ See the [catalog](https://popsim-consortium.github.io/stdpopsim-docs/latest/cata
 
 `annotation_id` : `<class 'str'>`,`<class 'str'>`  A string indicating where the DFE should be applied followed by the name of the data. 
 If applied to the 'exons', then an annotation name needs to be given see [here](https://popsim-consortium.github.io/stdpopsim-docs/latest/catalog.html#sec_catalog_HomSap_annotations) for humans. If set to 'none', 
-a neutral model is applied. And if set to 'all' then selection is insert in the entire contig under subject. 
+a neutral model is applied. And if set to 'all' then selection is insert in the entire contig under subject.
 
-`annotation_id` : `<class 'int'>`
-
+`slim_scaling_factor` : `<class 'int'>` An integer specifying the scaling factor (Q) to rescale model parameters by Q to speed up simulation. 
+See [SLiM manual](http://benhaller.com/slim/SLiM_Manual.pdf): 5.5 Rescaling population sizes to improve simulation performance.
